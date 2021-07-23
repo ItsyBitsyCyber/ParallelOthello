@@ -1,36 +1,3 @@
-/* vim: ai:sw=4:ts=4:sts:et */
-
-/*H**********************************************************************
- *
- *    This is a skeleton to guide development of Othello engines that can be used
- *    with the Ingenious Framework and a Tournament Engine. 
- *    The communication with the referee is handled by an implementaiton of comms.h,
- *    All communication is performed at rank 0.
- *
- *    Board co-ordinates for moves start at the top left corner of the board i.e.
- *    if your engine wishes to place a piece at the top left corner, the "gen_move"
- *    function must return "00".
- *
- *    The match is played by making alternating calls to each engine's "gen_move"
- *    and "play_move" functions. The progression of a match is as follows:
- *        1. Call gen_move for black player
- *        2. Call play_move for white player, providing the black player's move
- *        3. Call gen move for white player
- *        4. Call play_move for black player, providing the white player's move
- *        .
- *        .
- *        .
- *        N. A player makes the final move and "game_over" is called for both players
- *    
- *    IMPORTANT NOTE:
- *        Any output that you would like to see (for debugging purposes) needs
- *        to be written to file. This can be done using file fp, and fprintf(),
- *        don't forget to flush the stream. 
- *        I would suggest writing a method to make this
- *        easier, I'll leave that to you.
- *        The file name is passed as argv[4], feel free to change to whatever suits you.
- *H***********************************************************************/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
