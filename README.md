@@ -31,6 +31,7 @@ Determining the best move was quite challenging. Not so much with regards to imp
 
 The function combines a weighting evaluation - where different moves have different weightings. For instance, corner pieces would have a higher rating than a middle board piece. On top of this, I combined the weighting evaluation with the number of legal moves a player has left on the end state board. 
 
+*Note this is a lightweight implementation - it does not connect to the game server.
 
 
 
