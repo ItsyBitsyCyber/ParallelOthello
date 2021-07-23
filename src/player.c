@@ -845,7 +845,7 @@ int count(int player, int *board)
     return cnt;
 }
 /**
- * Debuf function used for checking
+ * Debug function used for checking
  * if array of moves divided sucessfully
  */ 
 void print_process_moves(int *local_moves, int *send_counts)
