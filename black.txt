@@ -1,0 +1,533 @@
+This is an example of output written to file.
+   1 2 3 4 5 6 7 8 [b=4 w=1]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . . . . . . 
+4  . . . w b . . . 
+5  . . . b b . . . 
+6  . . . . b . . . 
+7  . . . . . . . . 
+8  . . . . . . . . 
+   1 2 3 4 5 6 7 8 [b=3 w=3]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . . . . . . 
+4  . . . w b . . . 
+5  . . . w b . . . 
+6  . . . w b . . . 
+7  . . . . . . . . 
+8  . . . . . . . . 
+   1 2 3 4 5 6 7 8 [b=6 w=1]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . . . . . . 
+4  . . . w b . . . 
+5  . . . b b . . . 
+6  . . b b b . . . 
+7  . . . . . . . . 
+8  . . . . . . . . 
+   1 2 3 4 5 6 7 8 [b=5 w=3]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . . . . . . 
+4  . . . w b . . . 
+5  . . . b w . . . 
+6  . . b b b w . . 
+7  . . . . . . . . 
+8  . . . . . . . . 
+   1 2 3 4 5 6 7 8 [b=7 w=2]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . . . . . . 
+4  . . . w b . . . 
+5  . . . b b b . . 
+6  . . b b b w . . 
+7  . . . . . . . . 
+8  . . . . . . . . 
+   1 2 3 4 5 6 7 8 [b=4 w=6]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . . . . . . 
+4  . . . w b . . . 
+5  . . . b b b . . 
+6  . w w w w w . . 
+7  . . . . . . . . 
+8  . . . . . . . . 
+   1 2 3 4 5 6 7 8 [b=6 w=5]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . . . . . . 
+4  . . b b b . . . 
+5  . . . b b b . . 
+6  . w w w w w . . 
+7  . . . . . . . . 
+8  . . . . . . . . 
+   1 2 3 4 5 6 7 8 [b=5 w=7]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . . . . . . 
+4  . . b b b . w . 
+5  . . . b b w . . 
+6  . w w w w w . . 
+7  . . . . . . . . 
+8  . . . . . . . . 
+   1 2 3 4 5 6 7 8 [b=7 w=6]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . . . . . . 
+4  . . b b b . w . 
+5  . . . b b w . . 
+6  . w w w b w . . 
+7  . . . . b . . . 
+8  . . . . . . . . 
+   1 2 3 4 5 6 7 8 [b=6 w=8]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . . . . . . 
+4  . . b b b . w . 
+5  . . . b b w . . 
+6  . w w w b w . . 
+7  . . . . w . . . 
+8  . . . w . . . . 
+   1 2 3 4 5 6 7 8 [b=10 w=5]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . . . . . . 
+4  . . b b b . w . 
+5  . . . b b w . . 
+6  b b b b b w . . 
+7  . . . . w . . . 
+8  . . . w . . . . 
+   1 2 3 4 5 6 7 8 [b=9 w=7]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . w . . . . 
+4  . . b b w . w . 
+5  . . . b b w . . 
+6  b b b b b w . . 
+7  . . . . w . . . 
+8  . . . w . . . . 
+   1 2 3 4 5 6 7 8 [b=11 w=6]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . w . . . . 
+4  . . b b w . w . 
+5  . . . b b w . . 
+6  b b b b b b . . 
+7  . . . . w . b . 
+8  . . . w . . . . 
+   1 2 3 4 5 6 7 8 [b=10 w=8]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . w . . . . 
+4  . . b b w . w . 
+5  . . . b b w . . 
+6  b b b b b w . . 
+7  . . . . w w b . 
+8  . . . w . . . . 
+   1 2 3 4 5 6 7 8 [b=12 w=7]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . w . . . . 
+4  . . b b b b w . 
+5  . . . b b w . . 
+6  b b b b b w . . 
+7  . . . . w w b . 
+8  . . . w . . . . 
+   1 2 3 4 5 6 7 8 [b=9 w=11]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . w . . . . 
+4  . . b b b b w . 
+5  . . w w w w . . 
+6  b b b w b w . . 
+7  . . . . w w b . 
+8  . . . w . . . . 
+   1 2 3 4 5 6 7 8 [b=11 w=10]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . w . . . . 
+4  . . b b b b w . 
+5  . . w w w w . . 
+6  b b b w b w . . 
+7  . . . . b w b . 
+8  . . . w b . . . 
+   1 2 3 4 5 6 7 8 [b=10 w=12]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . w . . . . 
+4  . . w b b b w . 
+5  . w w w w w . . 
+6  b b b w b w . . 
+7  . . . . b w b . 
+8  . . . w b . . . 
+   1 2 3 4 5 6 7 8 [b=12 w=11]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . w . . . . 
+4  . . w b b b w . 
+5  . w w w w w . . 
+6  b b b w b w . . 
+7  . . . . b w b . 
+8  . . b b b . . . 
+   1 2 3 4 5 6 7 8 [b=11 w=13]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . w . . . . 
+4  . . w b b b w . 
+5  . w w w w w . . 
+6  b w b w b w . . 
+7  w . . . b w b . 
+8  . . b b b . . . 
+   1 2 3 4 5 6 7 8 [b=13 w=12]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . w . . . . 
+4  . . w b b b w . 
+5  . w w w w w . . 
+6  b w b w b w . . 
+7  b . . . b w b . 
+8  b . b b b . . . 
+   1 2 3 4 5 6 7 8 [b=10 w=16]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . w . . . . 
+4  . . w b b b w . 
+5  . w w w w w . . 
+6  b w w w w w . . 
+7  b . . w w w b . 
+8  b . b b b . . . 
+   1 2 3 4 5 6 7 8 [b=12 w=15]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . w . . . . 
+4  . b b b b b w . 
+5  . w w w w w . . 
+6  b w w w w w . . 
+7  b . . w w w b . 
+8  b . b b b . . . 
+   1 2 3 4 5 6 7 8 [b=10 w=18]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . w . w . . 
+4  . b b b w w w . 
+5  . w w w w w . . 
+6  b w w w w w . . 
+7  b . . w w w b . 
+8  b . b b b . . . 
+   1 2 3 4 5 6 7 8 [b=14 w=15]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . w . w . . 
+4  . b b b b b b b 
+5  . w w w w w . . 
+6  b w w w w w . . 
+7  b . . w w w b . 
+8  b . b b b . . . 
+   1 2 3 4 5 6 7 8 [b=13 w=17]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . w . w w . 
+4  . b b b b w b b 
+5  . w w w w w . . 
+6  b w w w w w . . 
+7  b . . w w w b . 
+8  b . b b b . . . 
+   1 2 3 4 5 6 7 8 [b=17 w=14]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . w . w w . 
+4  b b b b b w b b 
+5  . b w w w w . . 
+6  b w b w w w . . 
+7  b . . b w w b . 
+8  b . b b b . . . 
+   1 2 3 4 5 6 7 8 [b=16 w=16]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . w . w w . 
+4  b b b b b w b b 
+5  . b w w w w . . 
+6  b w b w w w . . 
+7  b . . b w w w w 
+8  b . b b b . . . 
+   1 2 3 4 5 6 7 8 [b=20 w=13]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . w . w w . 
+4  b b b b b w b b 
+5  . b b w w w . . 
+6  b w b b w w . . 
+7  b . . b b w w w 
+8  b . b b b b . . 
+   1 2 3 4 5 6 7 8 [b=18 w=16]
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . w . w w . 
+4  b b b b b w b b 
+5  w w w w w w . . 
+6  b w b b w w . . 
+7  b . . b b w w w 
+8  b . b b b b . . 
+   1 2 3 4 5 6 7 8 [b=22 w=13]
+1  . . . . . . . . 
+2  . . . . . . . b 
+3  . . . w . w b . 
+4  b b b b b b b b 
+5  w w w w b w . . 
+6  b w b b w w . . 
+7  b . . b b w w w 
+8  b . b b b b . . 
+   1 2 3 4 5 6 7 8 [b=21 w=15]
+1  . . . . . . . . 
+2  . . . . . . . b 
+3  . . . w . w b . 
+4  b b b b b b b b 
+5  w w w w b w . . 
+6  b w w b w w . . 
+7  b w . b b w w w 
+8  b . b b b b . . 
+   1 2 3 4 5 6 7 8 [b=24 w=13]
+1  . . . . . . . . 
+2  . . . . . . . b 
+3  . . . w . w b . 
+4  b b b b b b b b 
+5  w w w w b b b . 
+6  b w w b w b . . 
+7  b w . b b w w w 
+8  b . b b b b . . 
+   1 2 3 4 5 6 7 8 [b=21 w=17]
+1  . . . . . . . . 
+2  . . . . . . . b 
+3  . . . w . w b . 
+4  b b b b w b b b 
+5  w w w w b w b . 
+6  b w w b w w w . 
+7  b w . b b w w w 
+8  b . b b b b . . 
+   1 2 3 4 5 6 7 8 [b=25 w=14]
+1  . . . . . . . . 
+2  . . . . . . . b 
+3  . . . w . w b . 
+4  b b b b w b b b 
+5  w b w w b w b . 
+6  b b w b w w w . 
+7  b b . b b w w w 
+8  b b b b b b . . 
+   1 2 3 4 5 6 7 8 [b=23 w=17]
+1  . . . . . . . . 
+2  . . . . . . . b 
+3  . . . w . w b . 
+4  b b b b w b w b 
+5  w b w w b w w w 
+6  b b w b w w w . 
+7  b b . b b w w w 
+8  b b b b b b . . 
+   1 2 3 4 5 6 7 8 [b=28 w=13]
+1  . . . . . . . . 
+2  . . . . . . b b 
+3  . . . w . b b . 
+4  b b b b b b w b 
+5  w b w b b w w w 
+6  b b b b w w w . 
+7  b b . b b w w w 
+8  b b b b b b . . 
+   1 2 3 4 5 6 7 8 [b=26 w=16]
+1  . . . . . . . . 
+2  . . . . . . b b 
+3  . w . w . b b . 
+4  b b w b b b w b 
+5  w b w w b w w w 
+6  b b b b w w w . 
+7  b b . b b w w w 
+8  b b b b b b . . 
+   1 2 3 4 5 6 7 8 [b=28 w=15]
+1  . . . . . . . . 
+2  . . . b . . b b 
+3  . w . b . b b . 
+4  b b w b b b w b 
+5  w b w w b w w w 
+6  b b b b w w w . 
+7  b b . b b w w w 
+8  b b b b b b . . 
+   1 2 3 4 5 6 7 8 [b=26 w=18]
+1  . . . . . . . . 
+2  . . . b w . b b 
+3  . w . w . w b . 
+4  b b w b b b w b 
+5  w b w w b w w w 
+6  b b b b w w w . 
+7  b b . b b w w w 
+8  b b b b b b . . 
+   1 2 3 4 5 6 7 8 [b=29 w=16]
+1  . . . . . . . . 
+2  . . . b b b b b 
+3  . w . w . b b . 
+4  b b w b b b w b 
+5  w b w w b w w w 
+6  b b b b w w w . 
+7  b b . b b w w w 
+8  b b b b b b . . 
+   1 2 3 4 5 6 7 8 [b=27 w=19]
+1  . . . . . . . . 
+2  . . . b b b b b 
+3  w w . w . b b . 
+4  w w w b b b w b 
+5  w b w w b w w w 
+6  b b b b w w w . 
+7  b b . b b w w w 
+8  b b b b b b . . 
+   1 2 3 4 5 6 7 8 [b=34 w=13]
+1  . . . . . . . . 
+2  . . . b b b b b 
+3  w w . w . b b . 
+4  w w w b b b w b 
+5  w b w w b w b b 
+6  b b b b b b b b 
+7  b b . b b w b w 
+8  b b b b b b . . 
+   1 2 3 4 5 6 7 8 [b=30 w=18]
+1  . . . . . . . . 
+2  . . . b b b b b 
+3  w w . w . b b . 
+4  w w w b b b w b 
+5  w b w w b w b b 
+6  b w w b b b b b 
+7  b b w w w w b w 
+8  b b b b b b . . 
+   1 2 3 4 5 6 7 8 [b=33 w=16]
+1  . . . . . . . . 
+2  . b . b b b b b 
+3  w b . w . b b . 
+4  w b w b b b w b 
+5  w b w w b w b b 
+6  b w w b b b b b 
+7  b b w w w w b w 
+8  b b b b b b . . 
+   1 2 3 4 5 6 7 8 [b=30 w=20]
+1  . . . . . . . . 
+2  . b . b b b b b 
+3  w b . w . b b w 
+4  w b w b b b w w 
+5  w b w w b w b w 
+6  b w w b b b b w 
+7  b b w w w w b w 
+8  b b b b b b . . 
+   1 2 3 4 5 6 7 8 [b=32 w=19]
+1  . . . . . . . . 
+2  . b . b b b b b 
+3  w b . w . b b w 
+4  w b w b b b w w 
+5  w b w w b w b w 
+6  b w w b b b b w 
+7  b b w w w b b w 
+8  b b b b b b b . 
+   1 2 3 4 5 6 7 8 [b=27 w=25]
+1  . . . . . w . . 
+2  . b . b w w w b 
+3  w b . w . w b w 
+4  w b w b b w w w 
+5  w b w w b w b w 
+6  b w w b b b b w 
+7  b b w w w b b w 
+8  b b b b b b b . 
+   1 2 3 4 5 6 7 8 [b=32 w=21]
+1  . . . . . w . . 
+2  . b . b w w w b 
+3  w b b w . w b w 
+4  w b b b b w w w 
+5  w b b w b w b w 
+6  b w b b b b b w 
+7  b b b w w b b w 
+8  b b b b b b b . 
+   1 2 3 4 5 6 7 8 [b=30 w=24]
+1  . . . . . w . . 
+2  . b w w w w w b 
+3  w w b w . w b w 
+4  w b b b b w w w 
+5  w b b w b w b w 
+6  b w b b b b b w 
+7  b b b w w b b w 
+8  b b b b b b b . 
+   1 2 3 4 5 6 7 8 [b=33 w=22]
+1  . . . b . w . . 
+2  . b w b w w w b 
+3  w w b b . w b w 
+4  w b b b b w w w 
+5  w b b w b w b w 
+6  b w b b b b b w 
+7  b b b w w b b w 
+8  b b b b b b b . 
+   1 2 3 4 5 6 7 8 [b=32 w=24]
+1  . . . b . w . . 
+2  w w w b w w w b 
+3  w w b b . w b w 
+4  w b b b b w w w 
+5  w b b w b w b w 
+6  b w b b b b b w 
+7  b b b w w b b w 
+8  b b b b b b b . 
+   1 2 3 4 5 6 7 8 [b=35 w=22]
+1  . . . b . w . b 
+2  w w w b w w b b 
+3  w w b b . b b w 
+4  w b b b b w w w 
+5  w b b w b w b w 
+6  b w b b b b b w 
+7  b b b w w b b w 
+8  b b b b b b b . 
+   1 2 3 4 5 6 7 8 [b=26 w=32]
+1  . . . b . w . b 
+2  w w w b w w b b 
+3  w w w w w w w w 
+4  w b b w w w w w 
+5  w b w w w w b w 
+6  b w b b w b b w 
+7  b b b w w b b w 
+8  b b b b b b b . 
+   1 2 3 4 5 6 7 8 [b=32 w=27]
+1  . . . b . w . b 
+2  w w w b w w b b 
+3  w w w w w w w b 
+4  w b b w w w w b 
+5  w b w w w w b b 
+6  b w b b w b b b 
+7  b b b w w b b b 
+8  b b b b b b b b 
+   1 2 3 4 5 6 7 8 [b=31 w=29]
+1  . . . b w w . b 
+2  w w w w w w b b 
+3  w w w w w w w b 
+4  w b b w w w w b 
+5  w b w w w w b b 
+6  b w b b w b b b 
+7  b b b w w b b b 
+8  b b b b b b b b 
+   1 2 3 4 5 6 7 8 [b=38 w=23]
+1  . b . b w w . b 
+2  w b b w w w b b 
+3  w b w b w w w b 
+4  w b b w b w w b 
+5  w b w w w b b b 
+6  b w b b w b b b 
+7  b b b w w b b b 
+8  b b b b b b b b 
+   1 2 3 4 5 6 7 8 [b=35 w=27]
+1  . b w w w w . b 
+2  w w w w w w b b 
+3  w b w b w w w b 
+4  w b b w b w w b 
+5  w b w w w b b b 
+6  b w b b w b b b 
+7  b b b w w b b b 
+8  b b b b b b b b 
+   1 2 3 4 5 6 7 8 [b=45 w=18]
+1  . b b b b b b b 
+2  w w w w w b b b 
+3  w b w b b w w b 
+4  w b b b b w w b 
+5  w b b w w b b b 
+6  b b b b w b b b 
+7  b b b w w b b b 
+8  b b b b b b b b 
+Game over
